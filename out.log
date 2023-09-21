@@ -1,0 +1,13 @@
+2023-09-17 18:17:14,433 [INFO ]  Starting Rasa server on http://0.0.0.0:5002
+2023-09-17 18:17:15,776 [INFO ]  Rasa server is up and running.
+2023-09-17 18:17:15,778 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "C:\Users\Giris\AppData\Local\Programs\Python\Python38\lib\site-packages\sanic\server\runners.py", line 133, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "C:\Users\Giris\AppData\Local\Programs\Python\Python38\lib\asyncio\base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "C:\Users\Giris\AppData\Local\Programs\Python\Python38\lib\asyncio\base_events.py", line 1463, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5002): only one usage of each socket address (protocol/network address/port) is normally permitted
+2023-09-17 18:17:38,650 [INFO ]  Starting Rasa server on http://0.0.0.0:5002
+2023-09-17 18:17:39,935 [INFO ]  Rasa server is up and running.
